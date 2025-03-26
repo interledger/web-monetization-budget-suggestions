@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "amounts": {
+      "type": "object",
+      "$comment": "All the values are meant as recommendations only.",
+      "properties": {
+        "default": { "type": "number" },
+        "max": { "type": "number" }
+      },
+      "required": ["default", "max"]
+    }
+  },
+  "type": "object",
+  "patternProperties": {
+    "^[A-Z]{3}$": {
+      "type": "object",
+      "properties": {
+        "budget": {
+          "description": "Monthly budget",
+          "$ref": "#/definitions/amounts"
+        },
+        "hourly": {
+          "description": "Hourly rate of pay",
+          "$ref": "#/definitions/amounts"
+        }
+      },
+      "required": ["budget", "hourly"]
+    }
+  }
+}

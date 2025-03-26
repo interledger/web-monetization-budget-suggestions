@@ -1,0 +1,63 @@
+{
+  "$schema": "./schema.json",
+  "AUD": {
+    "budget": { "default": 7.0, "max": 8.0 },
+    "hourly": { "default": 0.8, "max": 1.0 }
+  },
+  "CAD": {
+    "budget": { "default": 6.0, "max": 7.0 },
+    "hourly": { "default": 0.7, "max": 1.0 }
+  },
+  "CHF": {
+    "budget": { "default": 5.0, "max": 9.0 },
+    "hourly": { "default": 0.5, "max": 1.2 }
+  },
+  "CNY": {
+    "budget": { "default": 20.0, "max": 35.0 },
+    "hourly": { "default": 2.4, "max": 4.0 }
+  },
+  "EUR": {
+    "budget": { "default": 5.0, "max": 9.0 },
+    "hourly": { "default": 0.5, "max": 1.2 }
+  },
+  "GBP": {
+    "budget": { "default": 4.0, "max": 8.0 },
+    "hourly": { "default": 0.5, "max": 1.0 }
+  },
+  "INR": {
+    "budget": { "default": 100.0, "max": 400.0 },
+    "hourly": { "default": 12.0, "max": 40.0 }
+  },
+  "JPY": {
+    "budget": { "default": 500.0, "max": 750.0 },
+    "hourly": { "default": 50, "max": 90.0 }
+  },
+  "KRW": {
+    "budget": { "default": 4000.0, "max": 6800.0 },
+    "hourly": { "default": 470.0, "max": 800.0 }
+  },
+  "MXN": {
+    "budget": { "default": 50.0, "max": 85.0 },
+    "hourly": { "default": 6.0, "max": 10.0 }
+  },
+  "RON": {
+    "budget": { "default": 15.0, "max": 30.0 },
+    "hourly": { "default": 1.5, "max": 3.0 }
+  },
+  "RUB": {
+    "budget": { "default": 200.0, "max": 450.0 },
+    "hourly": { "default": 23.0, "max": 53.0 }
+  },
+  "SGD": {
+    "budget": { "default": 6.0, "max": 18.0 },
+    "hourly": { "default": 0.8, "max": 2.0 }
+  },
+  "USD": {
+    "budget": { "default": 5.0, "max": 15.0 },
+    "hourly": { "default": 0.6, "max": 1.0 }
+  },
+  "ZAR": {
+    "budget": { "default": 30.0, "max": 90.0 },
+    "hourly": { "default": 3.5, "max": 11.0 }
+  }
+}
