@@ -33,6 +33,6 @@ There aren't any automated processes to update the data as of now, so we hope to
 
 ## Data
 
-The [data.json](data.json) contains the data that you may use. This file is sorted alphabetically by the currency code.
+The [data.json](v1/data.json) contains the data that you may use. This file is sorted alphabetically by the currency code.
 
-There's also a [JSON Schema](schema.json) to keep data structure consistent and serve as a documentation for the file structure.
+There's also a [JSON Schema](v1/schema.json) to keep data structure consistent and serve as a documentation for the file structure.
